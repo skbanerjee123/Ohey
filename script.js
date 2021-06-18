@@ -35,32 +35,32 @@ var posts = [
 		mediaLink: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/close-up-of-cat-wearing-sunglasses-while-sitting-royalty-free-image-1571755145.jpg"
 	},
 	{
-		userImg: "https://randomuser.me/api/portraits/",
-		userName: "",
-		loc: "",
-		text: "",
-		mediaLink: ""
+		userImg: "https://randomuser.me/api/portraits/women/66.jpg",
+		userName: "Alexis Solsta",
+		loc: "Los Angeles County, California",
+		text: "Back at my hood, chilling life...",
+		mediaLink: "https://upload.wikimedia.org/wikipedia/commons/3/32/20190616154621%21Echo_Park_Lake_with_Downtown_Los_Angeles_Skyline.jpg"
 	},
 	{
-		userImg: "https://randomuser.me/api/portraits/",
-		userName: "",
-		loc: "",
-		text: "",
-		mediaLink: ""
+		userImg: "https://randomuser.me/api/portraits/men/19.jpg",
+		userName: "Dan Hugo",
+		loc: "Milan, Italy",
+		text: "Now its holy. Holy cow!",
+		mediaLink: "https://en.unesco.org/creative-cities/sites/default/files/styles/creative_city_940_420/public/milan_1.jpg?itok=8mLyf7P5"
 	},
 	{
-		userImg: "https://randomuser.me/api/portraits/",
-		userName: "",
-		loc: "",
-		text: "",
-		mediaLink: ""
+		userImg: "https://randomuser.me/api/portraits/men/99.jpg",
+		userName: "John Doe",
+		loc: "Ireland",
+		text: "That's my homeland mate.",
+		mediaLink: "https://www.state.gov/wp-content/uploads/2018/11/Ireland-2109x1406.jpg"
 	},
 	{
-		userImg: "https://randomuser.me/api/portraits/",
-		userName: "",
-		loc: "",
-		text: "",
-		mediaLink: ""
+		userImg: "https://randomuser.me/api/portraits/women/94.jpg",
+		userName: "Jane Doe",
+		loc: "Mumbai, India",
+		text: "Woah! Thats beautiful.",
+		mediaLink: "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202012/mumbai_pune_maharashtra_shutdo_1200x768.jpeg?YBSdfbrsZWhfCObmyFBbW3_JBw3_d_g4&size=770:433"
 	},
 ];
 var postOut = "";
