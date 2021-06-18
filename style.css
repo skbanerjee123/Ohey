@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  background: hsl(0,0%,90%);
+}
+.card {
+  max-width: 500px;
+  border-radius: 12px;
+  margin: 1.5em auto;
+  background: #fff;
+  display: block;
+	box-shadow: 0 2px 3px 0 #aaa;
+	transition: 0.7s ease;
+}
+hr {
+  border: none;
+  height: 1px;
+  background: #ddd;
+}
+.user {
+  align-items: center;
+  display: flex;
+  padding: 1em;
+}
+.text {
+  padding: 0.5em 1em;
+}
+.user div .loc .material-icons-outlined {
+  font-size: medium;
+  margin-right: 0.2em;
+}
+.user img {
+  height: 2.5em;
+  width: 2.5em;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 100%;
+  margin-right: 0.5em;
+}
+.user div .loc {
+  color: hsl(200, 80%, 40%);
+  font-weight: bold;
+  font-size: smaller;
+  display: flex;
+  align-items: center;
+}
+.media {
+  width: 100%;
+}
+.media * {
+  width: 100%;
+  display: block;
+}
+.footer {
+  padding: 0.5em 1em;
+}
+.footer button {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #222;
+  padding: 1em;
+  font-size: xx-small;
+  margin-right: 1em;
+  border-radius: 100%;
+  text-align: center;
+  transition: 0.2s;
+}
+.footer button:hover {
+  background: #eee;
+	transform: translateY(-0.3em);
+	color: hsl(0, 100%, 30%);
+}
+.comment {
+	padding: 1em;
+	font-size: smaller;
+}
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+	background-color: hsl(0, 0%, 90%);
+  /* change if the mask should have another color then white */
+  z-index: 99;
+  /* makes sure it stays on top */
+}
+
+#status {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  /* centers the loading animation horizontally one the screen */
+  top: 50%;
+  /* centers the loading animation vertically one the screen */
+  background-image: url(https://c.tenor.com/I6kN-6X7nhAAAAAj/loading-buffering.gif);
+  /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: 100%;
+	transform: translate(-50%,-50%);
+  /* is width and height divided by two */
+}
+@media only screen and (max-width: 540px) {
+	.card {
+		border-radius: 0;
+		margin: 0 auto;
+		border-bottom: 1px solid #ddd;
+	}
+	.card hr {
+		background: transparent;
+	}
+	body {
+		font-size: 0.875em;
+	}
+}
